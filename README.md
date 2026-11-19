@@ -14,17 +14,6 @@
 
 **Relasi:** penjual 1—N produk · kategori 1—N produk · pesanan 1—N detail_pesanan · produk 1—N detail_pesanan (pesanan M—N produk).
 
-## ERD
-```mermaid
-erDiagram
-  PENJUAL ||--o{ PRODUK : menjual
-  KATEGORI ||--o{ PRODUK : mengelompokkan
-  PESANAN ||--|{ DETAIL_PESANAN : berisi
-  PRODUK ||--o{ DETAIL_PESANAN : dipesan
-  ADMIN ||--o{ PESANAN : "mengonfirmasi (logis)"
-```
-(Tempel kode di https://mermaid.live untuk export PNG.)
-
 ## Alur Transaksi
 Pembeli buka Beranda → pilih produk → Detail → Tambah ke Keranjang → atur jumlah → isi nama/HP/alamat → Checkout → pesanan tersimpan (status *Menunggu Konfirmasi*) + kode pesanan → pembeli cek di menu **Status Pesanan** → Admin login → **Kelola Pesanan** → Konfirmasi/Tolak → Dikemas → Dikirim → Selesai. Stok berkurang saat dikonfirmasi, kembali jika dibatalkan.
 
