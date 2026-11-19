@@ -1,0 +1,20 @@
+:root{--pink:#ff9ebb;--pink2:#ffe0ea;--peach:#ffd9b8;--mint:#c9f2e0;--lav:#e6dcff;--ink:#6b4a5c}
+body{background:#fff7fa;font-family:'Quicksand',sans-serif;font-weight:500;color:var(--ink)}
+h1,h2,h3,h4,h5,.navbar-brand{font-weight:700}
+.nav-cute{background:var(--pink2);border-bottom:3px dashed var(--pink)}
+.nav-cute .nav-link,.navbar-brand{color:var(--ink)!important}.nav-link:hover{color:#e0568a!important}
+.bg-pink{background:var(--pink)!important}
+.card-cute{background:#fff;border:2px solid var(--pink2);border-radius:26px;box-shadow:0 6px 0 var(--pink2);transition:.2s;overflow:hidden}
+a.card-cute:hover,.card-cute.hov:hover{transform:translateY(-4px) rotate(-.5deg);box-shadow:0 10px 0 var(--pink)}
+.pimg{width:100%;height:170px;object-fit:cover}.pimg.emo{display:flex;align-items:center;justify-content:center;font-size:72px;background:var(--mint)}
+.col:nth-child(3n+2) .pimg.emo{background:var(--peach)}.col:nth-child(3n) .pimg.emo{background:var(--lav)}
+.pimg.big{height:320px;border-radius:26px}.pimg.sm{width:60px;height:60px;font-size:30px;border-radius:16px}
+.btn{border-radius:50px;font-weight:700}.btn-pink{background:var(--pink);color:#fff;border:0;box-shadow:0 4px 0 #e57aa0}.btn-pink:hover{background:#ff86ac;color:#fff}
+.btn-mint{background:var(--mint);color:#2f6b55}.btn-outline-pink{border:2px solid var(--pink);color:#d9568a}
+.form-control,.form-select{border-radius:16px;border:2px solid var(--pink2)}.form-control:focus,.form-select:focus{border-color:var(--pink);box-shadow:0 0 0 .2rem #ff9ebb40}
+.price{color:#e0568a;font-weight:700}.chip{background:var(--lav);border-radius:50px;padding:2px 12px;font-size:.8rem}
+.hero{background:linear-gradient(135deg,var(--pink2),var(--peach));border-radius:30px;padding:28px;text-align:center;margin-bottom:24px}
+.step{text-align:center;flex:1;opacity:.45}.step.on{opacity:1}.step .dot{width:48px;height:48px;border-radius:50%;background:var(--pink2);display:flex;align-items:center;justify-content:center;margin:0 auto 6px;font-size:22px}.step.on .dot{background:var(--pink)}
+.s-Menunggu{background:#fff0b8}.s-Dikonfirmasi{background:var(--mint)}.s-Dikemas{background:var(--lav)}.s-Dikirim{background:var(--peach)}.s-Selesai{background:#bde8ff}.s-Dibatalkan{background:#ffc4c4}
+.stat{padding:12px;font-size:.85rem;border-radius:50px;display:inline-block;padding:3px 14px}
+.table{--bs-table-bg:transparent;color:var(--ink)}
